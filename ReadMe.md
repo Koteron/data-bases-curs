@@ -1,0 +1,1 @@
+Course task from uni. Interface for interaction with PostgreSQL data base on JavaFX

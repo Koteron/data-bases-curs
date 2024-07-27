@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="anchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="166.0" prefWidth="209.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.db_curs.DataPopUpController">
+   <children>
+      <Button fx:id="closeButton" layoutX="117.0" layoutY="126.0" mnemonicParsing="false" text="Закрыть" />
+      <Button fx:id="submitButton" layoutX="27.0" layoutY="126.0" mnemonicParsing="false" text="Отправить" />
+      <TextField fx:id="nameTextField" layoutX="93.0" layoutY="14.0" prefHeight="26.0" prefWidth="88.0" />
+      <Text layoutX="29.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Название:" />
+      <TextField fx:id="costOurTextField" layoutX="93.0" layoutY="44.0" prefHeight="26.0" prefWidth="88.0" />
+      <Text layoutX="27.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Цена отеч:" />
+      <Text layoutX="14.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Цена иностр:" wrappingWidth="74.39999999999986" />
+      <TextField fx:id="costForeignTextField" layoutX="93.0" layoutY="76.0" prefHeight="26.0" prefWidth="88.0" />
+   </children>
+</AnchorPane>
